@@ -1,0 +1,475 @@
+﻿Log file open, 08/03/17 13:22:47
+LogInit:Display: Running engine for game: Vikings
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-772741110) SRandInit(-772741110).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083850
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.03-11.22.48:371][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.03-11.22.48:371][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.03-11.22.48:381][  0]LogInit: Computer: DESKTOP-73BO9IR
+[2017.08.03-11.22.48:381][  0]LogInit: User: PalominoStudio2
+[2017.08.03-11.22.48:381][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.03-11.22.48:381][  0]LogInit: High frequency timer resolution =3.328121 MHz
+[2017.08.03-11.22.48:382][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.08.03-11.22.48:382][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.03-11.22.48:382][  0]LogMemory: Process Physical Memory: 273.48 MB used, 273.48 MB peak
+[2017.08.03-11.22.48:382][  0]LogMemory: Process Virtual Memory: 261.10 MB used, 261.10 MB peak
+[2017.08.03-11.22.48:382][  0]LogMemory: Physical Memory: 10096.48 MB used,  6239.53 MB free, 16336.01 MB total
+[2017.08.03-11.22.48:382][  0]LogMemory: Virtual Memory: 638.51 MB used,  6239.53 MB free, 134217728.00 MB total
+[2017.08.03-11.22.48:453][  0]LogInit: Using OS detected language (fr-FR).
+[2017.08.03-11.22.48:453][  0]LogInit: Using OS detected locale (fr-FR).
+[2017.08.03-11.22.48:456][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2017.08.03-11.22.48:456][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2017.08.03-11.22.49:263][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.03-11.22.49:293][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.08.03-11.22.49:293][  0]LogD3D11RHI:       3035/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.03-11.22.49:295][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.03-11.22.49:295][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.03-11.22.49:295][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.03-11.22.49:298][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.03-11.22.49:298][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.03-11.22.49:298][  0]LogWindows: EnumDisplayDevices:
+[2017.08.03-11.22.49:298][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.08.03-11.22.49:298][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.08.03-11.22.49:298][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.08.03-11.22.49:299][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.08.03-11.22.49:299][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.03-11.22.49:299][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.08.03-11.22.49:299][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.08.03-11.22.49:299][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.08.03-11.22.49:299][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.03-11.22.49:313][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.03-11.22.49:323][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.03-11.22.49:371][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/Intermediate/Shaders/WorkingDirectory/13860/).
+[2017.08.03-11.22.49:371][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Palomino Studio 2/AppData/Local/Temp/UnrealShaderWorkingDir/521EBBE841E7661A3489B199031AC86C/'.
+[2017.08.03-11.22.49:371][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.03-11.22.50:289][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.03-11.22.50:338][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.03-11.22.50:388][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.03-11.22.50:437][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.03-11.22.50:488][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.03-11.22.50:539][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.03-11.22.50:590][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.03-11.22.50:642][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.03-11.22.50:688][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.03-11.22.50:737][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.03-11.22.50:788][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.03-11.22.50:837][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.03-11.22.50:887][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.03-11.22.50:937][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.03-11.22.50:984][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.03-11.22.51:085][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.03-11.22.51:085][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.03-11.22.51:123][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.03-11.22.51:218][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.03-11.22.51:248][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.03-11.22.51:297][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.03-11.22.51:345][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.03-11.22.51:393][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.03-11.22.51:440][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.03-11.22.51:440][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.03-11.22.51:950][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.03-11.22.52:020][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/Palomino Studio 2/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.03-11.22.52:021][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Palomino Studio 2/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.03-11.22.52:021][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.03-11.22.52:021][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.03-11.22.52:021][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.03-11.22.52:021][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.03-11.22.52:036][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.03-11.22.52:048][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Palomino Studio 2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.03-11.22.52:058][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.03-11.22.52:059][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.03-11.22.52:059][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.03-11.22.52:059][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.03-11.22.52:343][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.03-11.22.52:395][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.03-11.22.52:539][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.03-11.22.52:585][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.03-11.22.52:630][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.03-11.22.52:630][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.03-11.22.52:630][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.03-11.22.53:119][  0]LogNetVersion: Vikings , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2999348607)
+[2017.08.03-11.22.53:178][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2017.08.03-11.22.53:221][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.019057 seconds
+[2017.08.03-11.22.53:225][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.03-11.22.53:225][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.03-11.22.53:225][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.03-11.22.53:290][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.03-11.22.55:503][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.03-11.22.55:540][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.03-11.22.56:058][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.03-11.22.56:455][  0]SourceControl: Info Source control is disabled
+[2017.08.03-11.22.56:483][  0]SourceControl: Info Source control is disabled
+[2017.08.03-11.22.56:529][  0]SourceControl: Info Source control is disabled
+[2017.08.03-11.22.56:575][  0]SourceControl: Info Source control is disabled
+[2017.08.03-11.22.57:248][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.03-11.22.57:828][  0]LogEngine: Initializing Engine...
+[2017.08.03-11.22.57:829][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.03-11.22.58:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.03-11.22.58:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.03-11.22.58:132][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.03-11.22.58:141][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-11.22.58:152][  0]LogInit: FAudioDevice initialized.
+[2017.08.03-11.22.58:188][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Palomino Studio 2/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.03-11.22.58:194][  0]LogInit: Texture streaming: Enabled
+[2017.08.03-11.22.58:291][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.03-11.22.58:508][  0]LogInit: Transaction tracking system initialized
+[2017.08.03-11.22.58:818][  0]BlueprintLog: New page: Editor Load
+[2017.08.03-11.22.59:750][  0]LocalizationService: Info Localization service is disabled
+[2017.08.03-11.23.00:420][  0]LogConsoleResponse:Display: 
+[2017.08.03-11.23.00:546][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.03-11.23.00:546][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.03-11.23.00:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/Content/' took 0.01s
+[2017.08.03-11.23.01:526][  0]SourceControl: Info Source control is disabled
+[2017.08.03-11.23.01:526][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.03-11.23.01:526][  0]LightingResults: New page: Lighting Build
+[2017.08.03-11.23.01:567][  0]MapCheck: New page: Map Check
+[2017.08.03-11.23.01:567][  0]LightingResults: New page: Lighting Build
+[2017.08.03-11.23.01:896][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.03-11.23.01:902][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.03-11.23.01:914][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.03-11.23.01:959][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.075ms to complete.
+[2017.08.03-11.23.01:959][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.433
+[2017.08.03-11.23.02:004][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.03-11.23.02:075][  0]LogCollectionManager: Loaded 0 collections in 0.001169 seconds
+[2017.08.03-11.23.02:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/Saved/Collections/' took 0.01s
+[2017.08.03-11.23.02:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/Content/Developers/PalominoStudio2/Collections/' took 0.01s
+[2017.08.03-11.23.02:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/Content/Collections/' took 0.01s
+[2017.08.03-11.23.02:153][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.03-11.23.02:161][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2329 classes and 491 folders.
+[2017.08.03-11.23.02:225][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.03-11.23.02:252][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.03-11.23.02:296][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.03-11.23.02:334][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.03-11.23.02:338][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.03-11.23.02:339][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.03-11.23.02:344][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.03-11.23.02:423][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.08.03-11.23.02:502][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.03-11.23.02:566][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.03-11.23.02:566][  0]LogLoad: (Engine Initialization) Total time: 15.59 seconds
+[2017.08.03-11.23.02:566][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.08.03-11.23.02:566][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.03-11.23.02:576][  0]LogOcInput: OculusInput pre-init called
+[2017.08.03-11.23.02:576][  0]LogHMD: Starting GearVRController plugin
+[2017.08.03-11.23.02:589][  0]LogAssetRegistry: Asset discovery search completed in 9.4329 seconds
+[2017.08.03-11.23.02:590][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.03-11.23.02:590][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.08.03-11.23.02:593][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.03-11.23.02:642][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.03-11.23.21:629][263]LogActorFactory: Actor Factory created Ramp_Mesh
+[2017.08.03-11.23.24:750][636]LogActorFactory: Actor Factory created Ramp_Mesh
+[2017.08.03-11.23.34:469][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.03-11.23.39:223][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_Mesh)
+[2017.08.03-11.23.40:263][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_Mesh)
+[2017.08.03-11.23.59:448][737]Cmd: DELETE
+[2017.08.03-11.23.59:448][737]Cmd: ACTOR DELETE
+[2017.08.03-11.23.59:453][737]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.03-11.23.59:460][737]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.08.03-11.24.06:249][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge1)
+[2017.08.03-11.24.11:221][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2017.08.03-11.24.11:717][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
+[2017.08.03-11.24.13:802][431]Cmd: DELETE
+[2017.08.03-11.24.13:802][431]Cmd: ACTOR DELETE
+[2017.08.03-11.24.13:802][431]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.03-11.24.13:809][431]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.08.03-11.24.14:259][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2017.08.03-11.24.14:995][569]Cmd: DELETE
+[2017.08.03-11.24.14:995][569]Cmd: ACTOR DELETE
+[2017.08.03-11.24.14:995][569]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.03-11.24.15:003][569]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.08.03-11.24.20:376][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.03-11.24.26:688][960]Cmd: TRANSACTION UNDO
+[2017.08.03-11.24.26:688][960]LogEditorTransaction: Undo Move Actors
+[2017.08.03-11.24.26:703][960]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.03-11.24.38:106][315]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.03-11.24.49:153][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2017.08.03-11.25.01:429][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge1)
+[2017.08.03-11.25.09:400][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.03-11.25.25:208][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2017.08.03-11.25.28:260][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.03-11.25.29:027][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2017.08.03-11.26.01:545][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.03-11.26.02:034][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge15)
+[2017.08.03-11.26.02:938][357]Cmd: DELETE
+[2017.08.03-11.26.02:938][357]Cmd: ACTOR DELETE
+[2017.08.03-11.26.02:938][357]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.03-11.26.02:947][357]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.08.03-11.26.03:921][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge14)
+[2017.08.03-11.26.09:125][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.03-11.26.09:905][175]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-11.26.09:938][175]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.26.09:938][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-11.26.09:938][175]PIE: New page: PIE session: SideScrollerExampleMap (Aug 3, 2017, 3:26:09 PM)
+[2017.08.03-11.26.09:938][175]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.08.03-11.26.09:953][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015087s)
+[2017.08.03-11.26.09:954][175]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.03-11.26.09:954][175]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2017.08.03-11.26.09:954][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.016367s)
+[2017.08.03-11.26.09:971][175]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-11.26.09:979][175]LogInit: FAudioDevice initialized.
+[2017.08.03-11.26.10:027][175]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.03-11.26.10:031][175]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-13.26.10
+[2017.08.03-11.26.10:031][175]LogWorld: Bringing up level for play took: 0.001993
+[2017.08.03-11.26.10:073][175]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.03-11.26.10:074][175]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.773
+[2017.08.03-11.26.10:074][175]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.26.29:778][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.26.29:823][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.26.34:049][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge1)
+[2017.08.03-11.26.39:711][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2017.08.03-11.26.46:069][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.03-11.26.47:859][660]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-11.26.47:871][660]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.26.47:871][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-11.26.47:871][660]PIE: New page: PIE session: SideScrollerExampleMap (Aug 3, 2017, 3:26:47 PM)
+[2017.08.03-11.26.47:871][660]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.08.03-11.26.47:887][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014874s)
+[2017.08.03-11.26.47:887][660]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.03-11.26.47:888][660]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.08.03-11.26.47:888][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.015748s)
+[2017.08.03-11.26.47:904][660]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-11.26.47:912][660]LogInit: FAudioDevice initialized.
+[2017.08.03-11.26.47:944][660]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.03-11.26.47:947][660]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-13.26.47
+[2017.08.03-11.26.47:948][660]LogWorld: Bringing up level for play took: 0.002415
+[2017.08.03-11.26.47:948][660]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.898
+[2017.08.03-11.26.47:948][660]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.27.14:266][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.27.14:310][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.27.22:317][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2017.08.03-11.27.22:952][816]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Ledge13)
+[2017.08.03-11.27.23:763][909]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Ledge14)
+[2017.08.03-11.27.24:754][ 22]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Ledge15)
+[2017.08.03-11.27.30:028][649]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-11.27.30:045][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.27.30:045][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-11.27.30:045][649]PIE: New page: PIE session: SideScrollerExampleMap (Aug 3, 2017, 3:27:30 PM)
+[2017.08.03-11.27.30:045][649]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.08.03-11.27.30:060][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014795s)
+[2017.08.03-11.27.30:061][649]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.03-11.27.30:061][649]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2017.08.03-11.27.30:061][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.015812s)
+[2017.08.03-11.27.30:080][649]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-11.27.30:087][649]LogInit: FAudioDevice initialized.
+[2017.08.03-11.27.30:116][649]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.03-11.27.30:119][649]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-13.27.30
+[2017.08.03-11.27.30:119][649]LogWorld: Bringing up level for play took: 0.002014
+[2017.08.03-11.27.30:120][649]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.727
+[2017.08.03-11.27.30:120][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.27.43:677][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.27.43:726][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.27.46:111][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.08.03-11.27.57:875][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2017.08.03-11.28.01:024][310]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.03-11.28.09:863][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.08.03-11.28.17:875][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2017.08.03-11.28.21:929][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.08.03-11.28.25:509][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.03-11.28.33:633][130]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.03-11.28.35:165][310]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-11.28.35:179][310]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.28.35:179][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-11.28.35:179][310]PIE: New page: PIE session: SideScrollerExampleMap (Aug 3, 2017, 3:28:35 PM)
+[2017.08.03-11.28.35:179][310]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.08.03-11.28.35:194][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015130s)
+[2017.08.03-11.28.35:195][310]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.03-11.28.35:195][310]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2017.08.03-11.28.35:195][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.016514s)
+[2017.08.03-11.28.35:210][310]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-11.28.35:218][310]LogInit: FAudioDevice initialized.
+[2017.08.03-11.28.35:248][310]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.03-11.28.35:251][310]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-13.28.35
+[2017.08.03-11.28.35:251][310]LogWorld: Bringing up level for play took: 0.002287
+[2017.08.03-11.28.35:252][310]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.405
+[2017.08.03-11.28.35:252][310]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.29.01:234][425]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.29.01:272][425]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.29.15:802][140]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.03-11.29.19:446][563]Cmd: TRANSACTION UNDO
+[2017.08.03-11.29.19:446][563]LogEditorTransaction: Undo Move Actors
+[2017.08.03-11.29.22:392][901]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.03-11.29.22:536][916]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCamera)
+[2017.08.03-11.29.28:606][634]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-11.29.28:620][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.29.28:620][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-11.29.28:620][634]PIE: New page: PIE session: SideScrollerExampleMap (Aug 3, 2017, 3:29:28 PM)
+[2017.08.03-11.29.28:620][634]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.08.03-11.29.28:633][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013004s)
+[2017.08.03-11.29.28:634][634]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.03-11.29.28:634][634]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2017.08.03-11.29.28:634][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.014083s)
+[2017.08.03-11.29.28:673][634]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-11.29.28:681][634]LogInit: FAudioDevice initialized.
+[2017.08.03-11.29.28:709][634]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.03-11.29.28:712][634]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-13.29.28
+[2017.08.03-11.29.28:712][634]LogWorld: Bringing up level for play took: 0.002013
+[2017.08.03-11.29.28:713][634]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.133
+[2017.08.03-11.29.28:713][634]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.29.55:923][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.29.55:991][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.30.12:893][586]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.03-11.30.13:210][586]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.08.03-11.30.13:698][586]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.03-11.30.13:764][586]LogSlate: Took 0.006275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.03-11.30.13:843][587]LogSlate: Took 0.003143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.03-11.30.38:501][898]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-11.30.38:520][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.30.38:520][898]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.03-11.30.38:520][898]LogPlayLevel: [PlayLevel] Compiling SideScrollerCharacter before play...
+[2017.08.03-11.30.38:659][898]LogPlayLevel: PlayLevel: Blueprint regeneration took 138 ms (1 blueprints)
+[2017.08.03-11.30.38:660][898]PIE: New page: PIE session: SideScrollerExampleMap (Aug 3, 2017, 3:30:38 PM)
+[2017.08.03-11.30.38:660][898]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.08.03-11.30.38:671][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011534s)
+[2017.08.03-11.30.38:672][898]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.03-11.30.38:672][898]LogPlayLevel: PIE: World Init took: (0.001207s)
+[2017.08.03-11.30.38:673][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.012950s)
+[2017.08.03-11.30.38:721][898]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-11.30.38:730][898]LogInit: FAudioDevice initialized.
+[2017.08.03-11.30.38:758][898]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.03-11.30.38:761][898]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-13.30.38
+[2017.08.03-11.30.38:761][898]LogWorld: Bringing up level for play took: 0.002085
+[2017.08.03-11.30.38:762][898]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.085
+[2017.08.03-11.30.38:762][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.30.47:832][980]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.30.47:897][980]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.08.03-11.31.43:169][811]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.03-11.31.43:204][812]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Vikings
+[2017.08.03-11.31.43:204][812]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.03-11.31.43:204][812]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.03-11.31.43:204][812]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.03-11.31.43:215][813]LogTemp: BranchPath = DESKTOP-73BO9IR/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-73BO9IR/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.03-11.31.43:220][813]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Palomino Studio 2\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.03-11.33.27:120][162]Cmd: TRANSACTION UNDO
+[2017.08.03-11.33.27:120][162]LogEditorTransaction: Undo Move Node
+[2017.08.03-11.34.32:222][727]LogSavePackage: Save=15.72ms
+[2017.08.03-11.34.32:222][727]LogSavePackage: Moving '../../../../../../Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/Saved/ThirdPersonHitF7E7950A4DAE2B9F4E0A7DA880B1E174.tmp' to '../../../../../../Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/Content/Mannequin/Animations/ThirdPersonHit.uasset'
+[2017.08.03-11.34.32:225][727]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Palomino Studio 2/Documents/GitHub/VikLeViking/Vikings/Content/Mannequin/Animations/ThirdPersonHit.uasset
+[2017.08.03-11.34.34:309][930]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.03-11.34.34:433][930]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.03-11.34.34:483][930]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.03-11.34.34:779][930]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2017.08.03-11.34.34:788][930]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.03-11.34.51:798][901]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2017.08.03-11.35.10:851][148]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.08.03-11.35.10:869][148]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.08.03-11.35.11:052][149]LogRenderer: Reallocating scene render targets to support 1208x888 NumSamples 1 (Frame:1).
+[2017.08.03-11.36.12:573][149]Cmd: TRANSACTION UNDO
+[2017.08.03-11.36.12:573][149]LogEditorTransaction: Undo Rotate Bone
+[2017.08.03-11.36.12:744][149]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.03-11.36.12:746][149]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.08.03-11.36.17:130][594]Cmd: TRANSACTION UNDO
+[2017.08.03-11.36.17:130][594]LogEditorTransaction: Undo Translate Bone
+[2017.08.03-11.36.17:305][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.03-11.36.17:307][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.08.03-11.36.22:461][165]Cmd: TRANSACTION UNDO
+[2017.08.03-11.36.22:461][165]LogEditorTransaction: Undo Rotate Bone
+[2017.08.03-11.36.22:633][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.03-11.36.22:635][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.08.03-11.36.36:859][798]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.08.03-11.36.37:029][798]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.08.03-11.38.56:685][621]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 2
+SessionName : 
+Reason      : Delete Selected Item
+
+Purging the undo buffer...
+
+[2017.08.03-11.38.57:195][621]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.08.03-11.38.57:195][621]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.08.03-11.39.20:277][662]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.121 s
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: 
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 792]
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: Type mismatch: Expected ThirdPerson_AnimBP_C, Found ThirdPerson_AnimBP_C
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: Stack: 
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008593E256
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000856EB862
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000085701E26
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000082008051
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000008033E7F2
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000008033C228
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007FF35742
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007FF286FB
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000851B99DD
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000851E9390
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000008047387E
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000008047300E
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000071E50305
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000071E4634C
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000071E4D8D6
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000817378A8
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008173D588
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000816A3B42
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000816A4EC9
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000081717775
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000817C8F57
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000817F5D7B
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008173F5FD
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000081619E9C
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000815E9835
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008168E5E2
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008167720F
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000081668391
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000859316FB
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008591B771
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008593337B
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000085917AC2
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: USER32.dll!0x00000000C96D1C24
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: USER32.dll!0x00000000C96D156C
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000085933C86
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor.exe!0x000000009126DB44
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor.exe!0x000000009125F0B0
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor.exe!0x000000009125F12A
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor.exe!0x0000000091270CF9
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000912725F7
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: KERNEL32.DLL!0x00000000CBB58364
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: ntdll.dll!0x00000000CBFF70D1
+[2017.08.03-11.39.20:277][662]LogOutputDevice:Error: 
+[2017.08.03-11.39.20:283][662]LogStats:                SubmitErrorReport -  0.000 s
